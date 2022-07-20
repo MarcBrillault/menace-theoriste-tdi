@@ -12,3 +12,12 @@ Ainsi, lorsqu'une page possède plusieurs enregistrements dans la wayback machin
 
 Le fait qu'il s'agisse d'un site indépendant garantit également sa neutralité.
 
+## Protocole
+
+Pour chacune des entrées présentes dans [la page d'archive de l'article disponible sur la wayback machine](https://web.archive.org/web/20210401000000*/https://menace-theoriste.fr/le-trouble-dissociatif-de-lidentite-nest-pas-ce-que-vous-pensez/) :
+
+- Je récupèrerai la partie du code source qui correspond à l'article (Tout le contenu disponible sous le sélecteur CSS `.standard-content`)
+- J'utiliserai le site [Code Beautify](https://codebeautify.org/htmlviewer) pour harmoniser le code source, avec les réglages par défaut
+- À l'enregistrement, le code source sera corrigé une seconde fois par mon logiciel (Visual Studio Code)
+
+## Historique
